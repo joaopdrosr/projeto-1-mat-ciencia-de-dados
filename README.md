@@ -7,7 +7,7 @@
 
 ## Sobre o projeto
 
-Este projeto visa implementar uma rede neural manualmente. Desse modo, para validar a implementação manual de uma rede neural com retropropagação, a rede é treinada em um conjunto de dados real, e os seus resultados são comparados com os de uma rede equivalente construída em Keras.
+Este projeto visa implementação de uma rede neural manualmente. Desse modo, para validar a implementação manual de uma rede neural com retropropagação, a rede é treinada em um conjunto de dados real, e os seus resultados são comparados com os de uma rede equivalente construída em Keras.
 
 ## Escolha da base
 
