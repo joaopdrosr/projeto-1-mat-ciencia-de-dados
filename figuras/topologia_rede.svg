@@ -1520,8 +1520,8 @@ z
     </g>
    </g>
    <g id="text_23">
-    <!-- Topologia da rede neural 2–4–4–1 -->
-    <g transform="translate(155.393045 18.597656) scale(0.15 -0.15)">
+    <!-- Topologia da rede neural -->
+    <g transform="translate(186.125857 18.597656) scale(0.15 -0.15)">
      <defs>
       <path id="DejaVuSans-37" d="M -19 4666 
 L 3928 4666 
@@ -1592,14 +1592,6 @@ z
      <use xlink:href="#DejaVuSans-55" transform="translate(1105.3125 0)"/>
      <use xlink:href="#DejaVuSans-44" transform="translate(1146.421875 0)"/>
      <use xlink:href="#DejaVuSans-4f" transform="translate(1207.703125 0)"/>
-     <use xlink:href="#DejaVuSans-3" transform="translate(1235.484375 0)"/>
-     <use xlink:href="#DejaVuSans-15" transform="translate(1267.265625 0)"/>
-     <use xlink:href="#DejaVuSans-af5" transform="translate(1330.890625 0)"/>
-     <use xlink:href="#DejaVuSans-17" transform="translate(1380.890625 0)"/>
-     <use xlink:href="#DejaVuSans-af5" transform="translate(1444.515625 0)"/>
-     <use xlink:href="#DejaVuSans-17" transform="translate(1494.515625 0)"/>
-     <use xlink:href="#DejaVuSans-af5" transform="translate(1558.140625 0)"/>
-     <use xlink:href="#DejaVuSans-14" transform="translate(1608.140625 0)"/>
     </g>
    </g>
   </g>

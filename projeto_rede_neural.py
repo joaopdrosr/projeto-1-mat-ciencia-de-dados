@@ -53,7 +53,7 @@ def neural_net(x, d, w0, b0, w1, b1, w2, b2):
     loss = erro**2
 
     # backward
-    grad_v2 = erro * y2[0] * (1 - y2[0])
+    grad_v2 = 2 * erro * y2[0] * (1 - y2[0])
     grad_w2 = grad_v2 * y1
     grad_b2 = np.array([grad_v2])
 
@@ -119,13 +119,12 @@ def main():
             grad_b2 += g_b2
             loss += erro
 
-        escala_mse = 2 / NUM_AMOSTRAS
-        w0 -= taxa * escala_mse * grad_w0
-        w1 -= taxa * escala_mse * grad_w1
-        w2 -= taxa * escala_mse * grad_w2
-        b0 -= taxa * escala_mse * grad_b0
-        b1 -= taxa * escala_mse * grad_b1
-        b2 -= taxa * escala_mse * grad_b2
+        w0 -= taxa * grad_w0 / NUM_AMOSTRAS
+        w1 -= taxa * grad_w1 / NUM_AMOSTRAS
+        w2 -= taxa * grad_w2 / NUM_AMOSTRAS
+        b0 -= taxa * grad_b0 / NUM_AMOSTRAS
+        b1 -= taxa * grad_b1 / NUM_AMOSTRAS
+        b2 -= taxa * grad_b2 / NUM_AMOSTRAS
         historico.append(loss / NUM_AMOSTRAS)
 
         if epoca % 100 == 0:

@@ -2,12 +2,12 @@
 
 **Disciplina:** Matemática para Ciência de Dados  
 **Curso:** Especialização em Deep Learning  
-**Instituição:** CIn - Centro de Informática - UFPE 
+**Instituição:** CIn - Centro de Informática - UFPE  
 **Aluno:** João Pedro da Silva Rodrigues
 
 ## Sobre o projeto
 
-Este projeto visa adaptar o `exemplo4.py`, realizando alterações para modificar a sua topologia e realizar o treinamento em um outro conjunto de dados. Desse modo, para validar a implementação manual de uma rede neural com retropropagação, os resultados são comparados coma de uma rede equivalente construída em Keras.
+Este projeto visa implementar uma rede neural manualmente. Desse modo, para validar a implementação manual de uma rede neural com retropropagação, a rede é treinada em um conjunto de dados real, e os seus resultados são comparados com os de uma rede equivalente construída em Keras.
 
 ## Escolha da base
 
@@ -55,9 +55,8 @@ O script treina as redes e salva `resultados_rede.npz`. No notebook, execute tod
 
 ## Arquivos
 
-- `exemplo4.py`: código original;
-- `projeto_rede_neural.py`: código principal com a implementação manual e com Keras;
+- `projeto_rede_neural.py`: rotina de código principal para o treinamento da rede neural com a implementação manual e com o Keras;
 - `dados_ionosphere/`: base e descrição originais da UCI;
-- `figuras/`: gráficos e diagrama da rede;
-- `relatorio_tecnico.ipynb`: relatório técnico;
+- `figuras/`: gráficos e diagramas da rede;
+- `relatorio_tecnico.ipynb`: relatório com detalhes técnicos da implementação e justificativas das escolhas do projeto;
 - `requirements.txt`: dependências do projeto.
